@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_1);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.but_1);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn_one = (Button) findViewById(R.id.btn_1);
+        Button btn_one = (Button) findViewById(R.id.buton_1);
         registerForContextMenu(btn_one);
     }
 
@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreateContextMenu(menu, v, menuInfo);
         MenuInflater inflater = getMenuInflater();
         menu.setHeaderTitle("Mis opciones");
-        inflater.inflate(R.menu.main, menu);
+        inflater.inflate(R.menu.menuuno, menu);
     }
 }

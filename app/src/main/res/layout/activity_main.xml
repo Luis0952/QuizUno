@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i012215.quizuno.MainActivity">
+<ImageView
+    android:id="@+id/icono_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icono2"
+    />
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icono_1"
+        android:text="Luis Eduardo Rosales"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desarrollo de Aplicaciones Android-Electiva"
+        android:textSize="15dp"
+        android:layout_below="@id/txt_1"
+        android:layout_toRightOf="@id/icono_1"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/relativeLayout"></RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="138dp"
+        android:layout_height="169dp"
+        android:background="@drawable/metal"
+        android:layout_below="@+id/icono_1"
+        android:layout_toRightOf="@+id/relativeLayout" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metal Slug For Windows"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txt_2"
+        android:layout_toRightOf="@+id/image_1"
+        android:layout_toEndOf="@+id/image_1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design Android/Ios"
+        android:textStyle="bold"
+        android:layout_below="@+id/text_2"
+        android:layout_toRightOf="@+id/image_1"
+        android:layout_toEndOf="@+id/image_1" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/relativeLayout">
+
+       <ImageView
+       android:id="@+id/icon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/perfil1"
+     />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandra Estacio"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/icon_2"
+            />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magister En Gestion de la Calidad"
+            android:textStyle="bold"
+            android:layout_below="@id/text_4"
+            android:layout_toRightOf="@+id/icon_2"
+            />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
